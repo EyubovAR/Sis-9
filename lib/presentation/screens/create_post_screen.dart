@@ -78,7 +78,7 @@ class _CreatePostScreenState extends State<CreatePostScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     DropdownButtonFormField<int>(
-                      value: _selectedUserId,
+                      initialValue: _selectedUserId,
                       decoration: const InputDecoration(
                         labelText: 'Автор поста',
                         border: OutlineInputBorder(),
